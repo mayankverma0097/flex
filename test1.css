@@ -1,0 +1,70 @@
+body {
+    /* background-color: whitesmoke; */
+    background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.box {
+    width: 95vw;
+    height: 60vh;
+    background-color:rgba(237, 237, 238, 0.397);
+    backdrop-filter: blur(5px);
+    /* background-image: url("images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    display: flex;
+    /* justify-content:space-between; */
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+
+.child {
+    width: 15vw;
+    height: 55vh;
+    background-color: rgb(226, 226, 209);
+    /* border: 2px solid black; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 2vh;
+    border-radius: 10px;
+    transition: 1s;
+
+
+}
+
+.child:hover {
+    transform: scale(1.1);
+}
+
+.img1 {
+
+    width: 15vw;
+    height: 22vh;
+    /* border: 2px solid black; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%;
+    background-attachment: fixed; */
+}
+
+.img1 img {
+    width: 15vw;
+    height: 22vh;
+    border-radius: 10px;
+}
+
+.artist {
+    margin-top: 2vh;
+}
+
+.name {
+    font-size: 4vmin;
+}
+
+.box audio {
+    width: 100%;
+    margin-top: 2vh;
+}
