@@ -4,11 +4,11 @@
 }
 
 body {
-    /* background-color: whitesmoke; */
-    background-image: url("images/bg1.jpg");
+    background-color: rgb(248, 245, 205);
+    /* background-image: url("");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 }
 
 .nav ul li {
@@ -45,12 +45,12 @@ body {
 }
 
 .sitename a {
-    font-size: 8vmin;
+    font-size: 10vmin;
     color: black;
     text-decoration: none;
     /* border: 2px solid black; */
-    font-family: cursive;
-    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    /* font-weight: bold; */
 }
 
 .sitename {
@@ -92,9 +92,9 @@ body {
 
 .featured_image img {
     width: 30vw;
-    height: 40vh;
+    height: 45vh;
     /* border: 2px solid black; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-left: 2vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
@@ -135,17 +135,18 @@ body {
     margin-left: 2vw;
     margin-top: 18vh;
     margin-bottom: 10vh;
+    
 }
 
 .child {
     width: 18vw;
     height: 65vh;
-    background-color: rgb(226, 226, 209);
+    background-color: rgb(240, 240, 233);
     /* border: 2px solid black; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 8vh;
-    border-radius: 10px;
-    transition: 1s;
+    /* border-radius: 10px; */
+    transition: 0.5s;
 
 
 
@@ -153,6 +154,8 @@ body {
 
 .child:hover {
     transform: scale(1.1);
+    
+    
 }
 
 /* .img1 {
@@ -164,12 +167,12 @@ body {
 } */
 
 .img1 img {
-    width: 15vw;
-    height: 25vh;
-    border-radius: 10px;
+    width: 16vw;
+    height: 22vh;
+    /* border-radius: 10px; */
     /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 4vh;
+    margin-top: 2vh;
 }
 
 .img1 img {
@@ -184,10 +187,21 @@ body {
 
 .name {
     font-size: 4vmin;
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 
 .box audio {
     width: 100%;
     margin-top: 2vh;
+    /* border: 1px solid white; */
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    font-size: 5vmin;
+    padding-top: 2vh;
+    text-align: center;
 }
