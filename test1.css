@@ -249,14 +249,14 @@ body {
     display: block;
 }
 .cartoon{
-    width: 90vw;
+    /* width: 90vw; */
     height: 60vh;
-    background-color: white;
-    margin-bottom: 20vh;
+    /* background-color: white; */
+    margin-bottom: 10vh;
     margin-top: 40vh;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 .cartoon img{
    width: 200px;
