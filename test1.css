@@ -243,7 +243,40 @@ body {
     margin-top: 30vh;
     font-size: 4vmin;
 }
-
+.cartoon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.cartoon{
+    width: 90vw;
+    height: 60vh;
+    background-color: white;
+    margin-bottom: 20vh;
+    margin-top: 40vh;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cartoon img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   margin-top: 15vh;
+   /* border: 1px solid black; */
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: 0.5s;
+}
+.cartoon img:hover{
+    transform: scale(1.2);
+}
+.sponsers{
+    position: absolute;
+    font-size: 6vmin;
+    /* color: white; */
+    top: 440vh;
+    left: 44vw;
+}
 footer {
     background-color: black;
     color: white;
@@ -251,4 +284,6 @@ footer {
     font-size: 5vmin;
     padding-top: 2vh;
     text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
