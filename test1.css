@@ -73,7 +73,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: space-around;
-    transition:1s;
+    transition:0.5s;
 }
 
 .featured_album:hover {
@@ -124,7 +124,7 @@ body {
     /* border: 2px solid black; */
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transition:1s;
+    transition:0.5s;
 }
 
 .featured_audio audio:hover {
@@ -159,7 +159,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 10vh;
     /* border-radius: 10px; */
-    transition:1s;
+    transition:0.5s;
 
 
 
@@ -222,7 +222,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: space-around;
-    transition:1s;
+    transition:0.5s;
 
 }
 
@@ -266,7 +266,7 @@ body {
    margin-top: 15vh;
    /* border: 1px solid black; */
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   transition:1s;
+   transition:0.5s;
 }
 .cartoon img:hover{
     transform: scale(1.2);
