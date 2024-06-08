@@ -35,7 +35,7 @@ body {
 .nav {
     /* border: 2px solid black; */
     text-align: center;
-    background-color: rgb(9, 11, 14);
+    background-color: rgb(37, 170, 130);
     height: 10vh;
     /* width: 70vw; */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -47,7 +47,7 @@ body {
 
 .sitename a {
     font-size: 10vmin;
-    color: rgb(0, 0, 0);
+    color: rgb(20, 138, 93);
     text-decoration: none;
     /* border: 2px solid black; */
     font-family: 'Times New Roman', Times, serif;
@@ -69,7 +69,7 @@ body {
     margin-top: 10vh;
     margin-left: 15vw;
     border-radius: 10px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(247, 247, 247);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: space-around;
@@ -279,8 +279,8 @@ body {
     left: 44vw;
 }
 footer {
-    background-color: black;
-    color: white;
+    background-color: rgb(49, 158, 116);
+    color: rgb(255, 255, 255);
     height: 8vh;
     font-size: 5vmin;
     padding-top: 2vh;
