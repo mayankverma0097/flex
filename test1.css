@@ -288,3 +288,11 @@ footer {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
+.when img{
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.when img:hover{
+    transform: scale(1.1);
+}
